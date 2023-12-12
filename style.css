@@ -357,4 +357,37 @@ padding: 4vw;
         height: 40%;
     
       }
+      #loader {
+        height: 100%;
+        width: 100%;
+        background: #000;
+        position: fixed;
+        z-index: 99;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+      }
+      #page3-elements {
+        height: 100%;
+        width: 100%;
+        /* background: #000; */
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8vw;
+        margin-bottom: 50rem;
+      }
+      #page3-elements .box {
+        position: relative;
+        height: 90%;
+        width: 90%;
+        /* background: red; */
+      }
+      #page1 {
+        height: 80vh;
+      }
   }
